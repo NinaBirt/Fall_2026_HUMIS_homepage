@@ -1,10 +1,12 @@
 :root {
-    --redapple:A12D37;
+    --uofuRed: #A12D37;
 }
+
 
 body {
     background-color: #777777;
     font-family: Arial, Helvetica, sans-serif;
+
 
     div.container {
         width: 780px;
@@ -12,15 +14,27 @@ body {
         margin: 0 auto; /* tb rl */
         background-color: white;
 
+
+        header {
+            img {
+                display: block;
+            }
+        }
+
+
         section.middle {
-            padding: 3px 10px;
-            background-image: url('../uofu_medallion_rt.gif');
+            padding: 5px 10px;
+            background-image: url('../files/uofu_medallion_rt.gif');
             background-position: bottom right;
             background-repeat: no-repeat;
+
 
             > nav {
                 text-align: right;
                 font-size: 10px;
+
+
+
 
                 a {
                     color: black;
@@ -29,29 +43,36 @@ body {
                     padding-right: 5px;
                     margin-left: 3px;
 
-                    &:hover {
+
+                    &:hover { /* Pseudoclass */
                         text-decoration: underline;
                     }
 
+
                     &:last-of-type {
                         border-right: none;
-                        padding-right: unset;
+                        padding-left: unset;
                     }
                 }
+
+
 
 
                 img {
                     vertical-align: middle;
                 }
 
+
                 &.top-nav {
                     text-transform: Uppercase;
                 }
+
 
                 &.bottom-nav {
                     text-transform: lowercase;
                 }
             }
+
 
             section.brown-box {
                 min-height: 400px;
@@ -59,61 +80,96 @@ body {
                 margin: 5px 0 50px;
                 padding: 10px 10px 10px 15px;
 
+
                 aside {
-                    border: 1px solid black;
+
 
                     &.left {
                         width: 30%;
                         float: left;
+
+
+
 
                         nav {
                             a {
                                 display: block;
                                 color: black;
                                 text-decoration: none;
-                                border-bottom: 2px solid;
+                                border-bottom: 2px solid #505A2F;
                                 text-transform: uppercase;
                                 padding: 10px 0 10px 10px;
                                 font-size: 10px;
-                                font-family: Arial, Helvetica, sans-serif;
+                                font-family: Helvetica, sans-serif;
+
 
                                 &:hover {
                                     background-color: #505A2F;
                                     color: white;
+
+
                                 }
                             }
                         }
+
+
+
 
                         div.links {
                             margin: 50px auto 0;
                             width: 153px;
                         }
-
                     }
+
+
+
 
                     &.right {
                         width: 60%;
                         float: right;
-                        background-color: #fff;
+                        background-color: white;
                         padding: 10px;
-
 
 
                         h1 {
                             text-transform: uppercase;
                             color: #505A2F;
-                            border-bottom: 2px dashed #A12D37;
+                            border-bottom: 2px dashed var(--uofuRed);
                             font-size: 16px;
                             font-weight: normal;
                         }
 
-                        a {
-                            color: var(--redapple);
+
+                        p {
+                            font-size: 12px;
+
+
+                            strong {
+                                font-size: 110%;
+                            }
+
+
+                            &.link {
+                                text-align: right;
+                                text-transform: uppercase;
+                                text-decoration: none;
+
+
+                                a {
+                                    color: var(--uofuRed);
+                                }
+
+
+                                &.hovered {
+                                    text-decoration: underline;
+                                }
+                            }
                         }
                     }
                 }
             }
         }
+
 
         footer {
             background-color: #686F3E;
@@ -124,7 +180,11 @@ body {
         }
 
 
+
+
     }
+
+
 
 
 }

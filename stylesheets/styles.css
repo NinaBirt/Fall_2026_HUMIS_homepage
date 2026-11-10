@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.top-links {
+    font-size: 10px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 4px;
+}
+
+.left-brand {
+    color: #a8201a;
+    font-weight: bold;
+}
+
+.right-links {
+    float: right;
+    color: #555555;
+}
+
+
+.banner {
+    margin-bottom: 15px;
+}
+
+.banner img {
+    display: block;
+}
+
+
+.sidebar {
+    width: 220px;
+    float: left;
+}
+
+.sidebar h2 {
+    font-size: 15px;
+    color: #777777;
+    margin-top: 0;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+.red-text {
+    color: #a8201a;
+    font-size: 22px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 5px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #777777;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.sidebar a:hover {
+    color: #a8201a;
+}
+
+.main-content {
+    width: 710px;
+    float: right;
+}
+
+
+.login-container {
+    margin-bottom: 20px;
+}
+
+.login-box {
+    width: 48%;
+    float: left;
+    background-color: #f7f7f7;
+    border: 1px solid #d0d0d0;
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 55px;
+}
+
+.login-box:first-child {
+    margin-right: 4%;
+}
+
+.login-icon {
+    float: left;
+    font-weight: bold;
+    font-style: italic;
+    color: #777777;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.u-badge {
+    background-color: #cc0000;
+    color: white;
+    padding: 1px 6px;
+    font-style: normal;
+}
+
+.login-text {
+    overflow: hidden;
+    font-size: 11px;
+    color: #444444;
+}
+
+.login-text a {
+    color: #cc0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news-section {
+    clear: both;
+}
+
+.news-section h2 {
+    font-size: 12px;
+    color: #a8201a;
+    border-bottom: 2px solid #a8201a;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.news-section h3 {
+    font-size: 11px;
+    color: #a8201a;
+    margin-bottom: 4px;
+}
+
+.news-section p {
+    line-height: 1.4;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+.more-link {
+    color: #cc0000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+
+.footer {
+    border-top: 1px solid #cccccc;
+    text-align: center;
+    font-size: 9px;
+    color: #666666;
+    margin-top: 25px;
+    padding-top: 8px;
+}
+
+.footer p {
+    margin: 3px 0;
+}
