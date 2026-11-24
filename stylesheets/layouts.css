@@ -17,6 +17,12 @@ section.horizontal-two-column-layout {
 
             div.top {
                 div.category {
+                    p {
+                        font-size: 0.8rem;
+                        font-weight: bold;
+                        margin-bottom: 0.1rem;
+                    }
+
                     a {
                         display: block;
                         text-decoration: none;
@@ -30,10 +36,11 @@ section.horizontal-two-column-layout {
 
                         &.active {
                             font-weight: bold;
+                            margin-top: 0.7rem
                         }
                     }
 
-                    .sub {
+                    &.sub {
                         margin-left: 10px;
 
                         a {
@@ -51,7 +58,7 @@ section.horizontal-two-column-layout {
                     span {
                         display: block;
 
-                        &.strong {
+                        &.name {
                             font-weight: bold;
                         }
 
@@ -74,15 +81,24 @@ section.horizontal-two-column-layout {
         }
 
         &.right-column {
-            width: 65%;
+            width: 70%;
 
             a {
                 color: var(--burgundy);
                 font-size: 0.7rem;
+                text-decoratiom: none;
+
 
                 &:hover {
                     text-decoration: underline;
                 }
+            }
+
+            .shrug {
+                font-size: 1.3rem;
+                color: var(--burgundy);
+                font-weight: bold;
+                font-family: "Helvetica", serif;
             }
         }
     }

@@ -23,6 +23,10 @@ body {
             display: block;
         }
 
+        section.bottom-border {
+            border-bottom: 6px solid var(--green);
+        }
+
     }
 
 
@@ -60,15 +64,9 @@ section.middle {
 
                     &.active{
                         font-weight: bold;
-
                     }
-
-
-
                 }
             }
-
-
 
             .links {
                 display: flex;
@@ -85,6 +83,24 @@ section.middle {
             flex-direction: column;
             padding: 5px 20px;
 
+            section.name-link {
+                a {
+                    color: black;
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: .8rem;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                p {
+                    font-size:.8rem;
+                    text-align: justify;
+                }
+            }
+
 
             nav.secondary {
                 display: flex;
@@ -92,8 +108,7 @@ section.middle {
                 gap: 5px;
                 font-size: 10px;
 
-
-                a{
+                a {
                     text-decoration: none;
                     color: black;
 
@@ -103,11 +118,11 @@ section.middle {
 
                 }
 
-                &.top-nav{
+                &.top-nav {
                     text-transform: uppercase;
                 }
 
-                &.bottom-nav{
+                &.bottom-nav {
                     text-transform: lowercase;
                     font-size: 9px;
 
@@ -115,8 +130,12 @@ section.middle {
 
             }
 
-            main{
+            main {
                 min-height: 600px;
+            }
+
+            section.contact-form {
+                margin-top: 3rem;
             }
 
         }

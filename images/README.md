@@ -1,0 +1,9 @@
+# Nina Birt
+
+## I learned a lot of basic things from using WebStorm, especially how HTML and CSS work together to create a website. I learned how to add headings, paragraphs, images, links, and different sections to a webpage, along with how to change colors, fonts, spacing, and layouts using CSS. I also learned how important it is to keep my code organized and make sure everything is connected correctly, which was something I definitely had to get used to.
+
+## Honestly, I struggled a lot with this class because coding is not something I am naturally good at, and sometimes I would get so confused trying to figure out why something was not working. I learned that even the smallest mistakes can mess up an entire page, so I had to be patient and go back through my code a lot. There are still some kinks in my website that I was not able to fully figure out, but I am happy that I finally made it to this point and was able to get everything put together. Even though it was challenging, I still had fun in the class and liked seeing my website come together.
+
+## As a graphic design major, I think I could use these skills in the future if I ever work on website design, portfolios, or other digital projects. I think knowing the basics of coding will help me understand how my designs actually function online and how to make them more realistic and usable. Even if I do not end up coding regularly in my career, I think it was useful to learn and gave me a better understanding of how design and technology work together. Also, I apologize for the late submission. I really struggled getting everything finished, but I am glad I was able to get it submitted.
+
+### Thank you!

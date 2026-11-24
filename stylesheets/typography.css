@@ -6,7 +6,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6, h7 {
         color: var(--burgundy);
         margin-top: 0;
         font-family: "Helvetica", serif;
@@ -15,46 +15,103 @@ body {
     h1, h2, h3 {
         text-transform: uppercase;
     }
-}
 
-h1 {
-    font-size: 3rem;
-    border-bottom: 6px solid var(--burgundy);
-}
 
-h2 {
-    font-size: 2rem;
-}
+    h1 {
+        font-size: 3rem;
+        border-bottom: 6px solid var(--burgundy);
+    }
 
-h3 {
-    font-size: 1.875rem;
-    margin-bottom: 0.5rem;
-}
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        border-bottom: 6.5px solid var(--burgundy);
+        margin-top: 13px;
 
-h4 {
-    font-size: 1.5rem;
-}
+        section.left-aligned {
+            text-align: left;
+            padding-left: 13px;
+        }
+    }
 
-h5 {
-    font-size: 1.25rem;
-}
+    h3 {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
 
-h6 {
-    font-size: 1rem;
-    margin-bottom: 0;
-}
+    h4 {
+        font-size: 1.5rem;
 
-p {
-    text-align: justify;
-    line-height: 1.5;
-}
+        section.head-name {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: var(--burgundy);
 
-.left-brand {
-    color: #a8201a;
-    font-weight: bold;
-}
+        }
 
-.red-text {
-    color: #a8201a;
-    font-size: 22px;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+    }
+
+    h6 {
+        font-size: .9rem;
+        margin-bottom: 0.8rem;
+        margin-top: 0.8rem;
+
+        .bottom {
+            text-align: justify;
+            line-height: 1.5rem;
+            font-size: 9px;
+        }
+    }
+
+    h7 {
+        font-size: .9rem;
+        margin-bottom: 0.8rem;
+        margin-top: 0.8rem;
+        color: black;
+        font-weight: bold;
+    }
+
+    p {
+        text-align: justify;
+        font-size: .8rem;
+
+        &.learn-more {
+            text-align: right;
+
+            &.left {
+                text-align: left;
+            }
+
+            a {
+                color: var(--burgundy);
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        )
+
+
+            .shrug {
+                font-size: 1.5rem;
+                color: var(--burgundy);
+                font-weight: bold;
+                font-family: "Helvetica", serif;
+            }
+        }
+    }
+    .left-brand {
+        color: #a8201a;
+        font-weight: bold;
+    }
+
+    .red-text {
+        color: #a8201a;
+        font-size: 22px;
+    }
 }

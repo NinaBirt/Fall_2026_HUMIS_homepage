@@ -4,6 +4,7 @@ main {
         display: inline-block;
         max-width: 150px;
 
+
         > img {
             width: 100%;
             border-radius: 10px 0 35px;
